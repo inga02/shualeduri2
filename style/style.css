@@ -1,0 +1,190 @@
+header{
+	background-color: #93E199;
+	position: fixed ;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+    z-index: 1
+
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+nav{
+	display: flex;
+}
+
+iframe{
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
+
+
+.head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navul{
+	display: flex;
+	max-width: 100%;
+
+}	
+
+.navli{
+	margin-right: 50px;
+	font-size: 20px;
+position: relative;
+  }
+
+
+
+.img{
+    width: 100%;
+    height: 700px;
+}	
+
+
+div.gallery {
+
+  padding-top: 100px;
+  padding-left: 30px;
+  margin: 5px;
+  float: left;
+  width: 200px;
+  height: 200px;
+
+  }
+
+  div.gallery:hover {
+
+  border: 1px solid #777;
+  border-radius: 10%;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+
+  
+}
+
+div.desc {
+  
+  border: 1px solid #777;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+ 
+
+}
+
+
+.text{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.anim{
+	position: relative;
+  animation: georgia 1s 50;
+  animation-direction: alternate;
+}
+
+@keyframes georgia{
+  from {color: yellow;}
+  to {color: green;}
+}
+
+.text1{
+	font-size: 40px;
+
+}
+
+
+.anim1{
+	position: relative;
+  animation: welcome 1s 50;
+  animation-direction: alternate;
+}
+
+@keyframes welcome{
+  from {color: red;}
+  to {color: green;}
+}
+
+
+
+
+
+.footer{
+
+	display: flex;
+	max-width: 100%;
+	width:100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #E1D493;
+	margin-top: 10%;
+	
+
+}
+
+
+.textt{
+	font-size: 20px;
+	
+}	
+
+.text2{
+	font-size: 13px;
+	
+}
+
+.bigbox{
+	margin-top: 30%;
+}
+
+label{
+	margin-left: 110px;
+	margin-top: 10%;
+	font-size: 23px;
+	
+}
+input, textarea{
+	width: 100%;
+	padding:12px 20px;
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 1px rgb(201,199,199);
+	border:rgb(202,200,200) 2px solid;
+	
+}
+
+
+.from{
+	
+	max-width: 630px;
+	width: 100%;
+}
+.button{
+	margin-left: 80px;
+	margin-top: 40px;
+	width: 150px;
+	height: 52px;
+	font-size: 22px;
+	background-color: #2E2E2E;
+	color: #FFFFFF;
+
+	
+}
